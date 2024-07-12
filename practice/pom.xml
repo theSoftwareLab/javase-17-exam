@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>eu.thesoftwarelab.cert</groupId>
+    <artifactId>practice17</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>object-oriented-approach</module>
+        <module>data-types</module>
+        <module>arrays-collections</module>
+        <module>program-flow-control</module>
+        <module>exception-handling</module>
+        <module>streams-lambdas</module>
+        <module>module-system</module>
+        <module>concurrency</module>
+        <module>io</module>
+        <module>secure-coding</module>
+        <module>jdbc</module>
+        <module>localization</module>
+        <module>annotations</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
+</project>
