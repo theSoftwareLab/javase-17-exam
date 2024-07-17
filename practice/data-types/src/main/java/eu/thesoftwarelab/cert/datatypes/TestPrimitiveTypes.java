@@ -1,5 +1,17 @@
 package eu.thesoftwarelab.cert.datatypes;
 
+/**
+ * byte 8 bits, range -2^7 to 2^7-1 <br/>
+ * char 16 bits, range 0 to 2^16-1 <br/>
+ * short 16 bits, range -2^15 to 2^15-1 <br/>
+ * int 32 bits, range -2^31 to 2^31-1 <br/>
+ * long 64 bits, range -2^63 to 2^63-1 <br/>
+ * float 32 bits <br/>
+ * double 64 bits <br/>
+ * boolean 1 bit <br/>
+ *
+ * @author mgeorgopoulos
+ */
 public class TestPrimitiveTypes {
 
   public static void main(String[] args) {
@@ -10,16 +22,10 @@ public class TestPrimitiveTypes {
     int i = (int) 10.5;
     System.out.println("casting the floating point value 10.5 to an int: " + i);
 
-    /**
-     * byte 8 bits, range -2^7 to 2^7-1
-     * char 16 bits, range 0 to 2^16-1
-     * short 16 bits, range -2^15 to 2^15-1
-     * int 32 bits, range -2^31 to 2^31-1
-     * long 64 bits, range -2^63 to 2^63-1
-     * float 32 bits
-     * double 64 bits
-     * boolean 1 bit
-     */
+    int i1 = 500;
+    byte b = (byte) i1;
+    System.out.println(b);
+
   }
 
 }
