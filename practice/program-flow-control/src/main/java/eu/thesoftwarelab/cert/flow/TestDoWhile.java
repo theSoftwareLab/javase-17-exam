@@ -1,4 +1,4 @@
-package eu.thesoftwarelab.cert.fc;
+package eu.thesoftwarelab.cert.flow;
 
 /**
  * This class shows a simple usage of do-while.

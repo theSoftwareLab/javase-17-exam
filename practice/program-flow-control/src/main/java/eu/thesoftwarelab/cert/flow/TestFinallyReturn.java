@@ -1,4 +1,4 @@
-package eu.thesoftwarelab.cert.fc;
+package eu.thesoftwarelab.cert.flow;
 
 /**
  * This program shows a usage of finally block.

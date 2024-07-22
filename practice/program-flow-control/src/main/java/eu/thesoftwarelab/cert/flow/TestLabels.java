@@ -1,4 +1,4 @@
-package eu.thesoftwarelab.cert.fc;
+package eu.thesoftwarelab.cert.flow;
 
 /**
  * This class shows a usage of labels for loops.

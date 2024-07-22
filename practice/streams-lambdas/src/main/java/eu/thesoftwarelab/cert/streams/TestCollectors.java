@@ -1,4 +1,4 @@
-package eu.thesoftwarelab.cert.collections;
+package eu.thesoftwarelab.cert.streams;
 
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;

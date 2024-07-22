@@ -1,4 +1,4 @@
-package eu.thesoftwarelab.cert.collections;
+package eu.thesoftwarelab.cert.streams;
 
 import java.util.ArrayList;
 import java.util.List;
